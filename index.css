@@ -33,12 +33,16 @@ body{
 .insidecard button img {
     height: 18px;
     width: 19px;
+
 }
 .insidecard button {
     border-radius: 23px;
     padding: 6px;
     margin-top: 5px ;
-    /* border: 2px solid black; */
+    border: 2px solid black;
+}
+.insidecard button:hover{
+    cursor: pointer; 
 }
 /*class container2 for image*/
 #conatiner2>img{
@@ -67,7 +71,7 @@ margin-left:38%;
     
 }
 
-/* class details css(humidity)*/
+/* class details css(humidity)============================================*/
 .parent_details_wind{
     /* border: 2px solid yellow; */
     display: flex;
